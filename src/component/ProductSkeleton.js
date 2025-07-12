@@ -1,6 +1,7 @@
 import React from   'react';
 
-const ProductSkeleton = () => (
+const ProductSkeleton = () => {
+  return (
   <div className="bg-white rounded-xl shadow-lg overflow-hidden animate-pulse">
     <div className="h-48 bg-gray-200"></div>
     <div className="p-6">
@@ -13,5 +14,7 @@ const ProductSkeleton = () => (
       </div>
     </div>
   </div>
-);
+  )
+}
+
 export default ProductSkeleton;
