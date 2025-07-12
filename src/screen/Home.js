@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import {AISuggestions, ProductModal, Toast} from '../component';
 
 import {ProductGrid,EmptyState,HistoryList,HeaderNav,SearchBar,Footer} from '../page';
-
+import ChatBot from '../chatbot/ChatBot';
 import { mockProducts, priceRanges } from '../data/mockProducts';
 
 const Home = () => {
@@ -167,7 +167,7 @@ const Home = () => {
         isVisible={toast.isVisible}
         onClose={hideToast}
       />
-
+      <ChatBot />
       <Footer />
 
     </div>
