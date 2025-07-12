@@ -2,7 +2,7 @@ import React from 'react';
 import ProductCard from '../component/ProductCard';
 
 
-const ProductGrid = ({ products, onViewDetails, onToggleFavorite, favorites, onAddToHistory,catelory }) => {
+const ProductGrid = ({ products, onViewDetails, onToggleFavorite, favorites, onAddToHistory }) => {
     return (
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6'>
             {products.map((product) => (
