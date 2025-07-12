@@ -9,7 +9,7 @@ const HeaderNav = () => {
           <div className="flex justify-between items-center h-16">
            <div className="flex items-center cursor-pointer">
         <BookOpen className="h-8 w-8 text-blue-600 mr-2" />
-      <h1 className="text-xl font-bold text-gray-800">EduMarket AI</h1>
+      <h1 className="text-xl font-bold text-gray-800">EduEcom AI</h1>
     </div>
            
             <nav className="hidden md:flex space-x-8">
