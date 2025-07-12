@@ -32,7 +32,7 @@ const SearchFilterBar = ({ searchTerm, setSearchTerm, selectedPriceRange, setSel
       </div>
 
       <button
-        
+         onClick={onAISuggest}
         className="bg-gradient-to-r from-purple-600 to-blue-600 text-white px-6 py-3 rounded-lg hover:from-purple-700 hover:to-blue-700 transition-all duration-200 flex items-center gap-2 whitespace-nowrap"
       >
         <Bot className="h-5 w-5" />
