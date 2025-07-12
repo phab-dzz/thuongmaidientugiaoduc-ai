@@ -9,7 +9,7 @@ const Footer = () => {
         <div>
           <div className="flex items-center mb-4">
             <BookOpen className="h-8 w-8 text-blue-400 mr-2" />
-            <h3 className="text-xl font-bold">EduMarket AI</h3>
+            <h3 className="text-xl font-bold">EduEcom AI</h3>
           </div>
           <p className="text-gray-400">Sàn giáo dục thương mại điện tử tích hợp AI, giúp bạn tìm kiếm và học tập hiệu quả nhất.</p>
         </div>
@@ -42,7 +42,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400 flex flex-col">
-        <p>&copy; 2025 EduMarket AI. Thông tin liên hệ:</p>
+        <p>&copy; 2025 EduCom AI. Thông tin liên hệ:</p>
         <small>
             Số điện thoại: <a href="tel:+0368375906" className="text-blue-400 hover:text-white">+84 3683 75906</a> | Email: <a href="mailto:duongvanphanls@gmail.com" className="text-blue-400 hover:text-white">duongvanphanls@gmail.com</a>
             | Github: <a href="https://github.com/phab-dzz" className="text-blue-400 hover:text-white">https://github.com/phab-dzz</a>

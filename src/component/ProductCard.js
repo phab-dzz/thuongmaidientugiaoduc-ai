@@ -7,7 +7,7 @@ const ProductCard = ({ product, onViewDetails, onToggleFavorite, isFavorite, onA
 
 
   const handleViewDetails = () => {
-    onAddToHistory(product);
+    
     onViewDetails(product);
   };
 
