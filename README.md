@@ -1,71 +1,68 @@
-# Getting Started with Create React App
+# EduEcomAI – Hệ thống gợi ý khóa học thông minh
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+EduEcomAI là một nền tảng học tập trực tuyến tích hợp công nghệ AI, giúp người học dễ dàng khám phá, quản lý và tiếp cận các khóa học phù hợp. Giao diện hiện đại, responsive và thân thiện với người dùng.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Tính năng chính
 
-### `npm start`
+- Hiển thị danh sách khóa học: Bao gồm đầy đủ thông tin về tên, mô tả, hình ảnh, giá,...
+- Tìm kiếm & lọc: Tìm khóa học theo từ khóa và lọc theo mức giá.
+- Gợi ý AI thông minh: Hệ thống đề xuất khóa học dựa trên hành vi người dùng, có hiệu ứng loading skeleton.
+- Modal chi tiết: Hiển thị chi tiết khóa học khi người dùng click vào.
+- Hệ thống yêu thích: Cho phép người dùng đánh dấu và quản lý danh sách yêu thích.
+- Lịch sử xem: Theo dõi và hiển thị các khóa học đã từng được truy cập.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## UX/UI
 
-### `npm test`
+- Responsive design: Tương thích với mọi thiết bị.
+- Hiệu ứng hover và transition mượt mà.
+- Toast notifications: Hiển thị phản hồi nhanh.
+- Loading khi gọi API.
+- Hiển thị lỗi khi API thất bại.
+- Màu chủ đạo xanh hiện đại.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## Kỹ thuật
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- React Hooks: Sử dụng useState, useEffect,...
+- Component hóa rõ ràng, dễ mở rộng.
+- Mock API cho phần gợi ý AI.
+- Quản lý state hiệu quả.
+- Xử lý lỗi đầy đủ, tránh crash.
+- Hỗ trợ accessibility với semantic HTML.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
+## Công nghệ sử dụng
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- ReactJS
+- TailwindCSS
+- React Router DOM
+- Chatbase (tích hợp AI Chat)
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Trải nghiệm di động
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Menu responsive cho mobile.
+- Bố cục linh hoạt, dễ điều hướng.
+- Giao diện thân thiện với thao tác chạm.
+- Hiển thị tốt trên mọi kích thước màn hình.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Cài đặt và chạy dự án
 
-## Learn More
+```bash
+# Clone dự án
+git https://github.com/phab-dzz/thuongmaidientugiaoduc-ai.git
+cd thuongmaidientugiaoduc-ai
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Cài dependencies
+npm install
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# thuongmaidientugiaoduc-ai
+# Chạy ứng dụng
+npm start
